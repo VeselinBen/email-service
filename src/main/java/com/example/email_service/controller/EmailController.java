@@ -1,6 +1,7 @@
 package com.example.email_service.controller;
 
 import com.example.email_service.dto.EmailRequest;
+import com.example.email_service.listener.RabbitMQJsonListener;
 import com.example.email_service.service.EmailService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
